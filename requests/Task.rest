@@ -1,0 +1,28 @@
+### GET TASK
+GET http://localhost:3005/task
+
+
+### Create task
+POST http://localhost:3005/task
+Content-Type: application/json
+
+{
+    "content": "Some Content from rest",
+    "important": true
+}
+
+
+### get task
+GET http://localhost:3005/task/1
+
+### get task
+DELETE  http://localhost:3005/task/1
+
+### Create task
+PUT http://localhost:3005/task/2
+Content-Type: application/json
+
+{
+    "Name":    "Task hello holaaa",
+    "Content": "Some Content"
+}
